@@ -1,0 +1,1 @@
+git clone = faz a cópia de algo que está na nuvem
