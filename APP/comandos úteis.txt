@@ -1,2 +1,5 @@
 dotnet build
 dotnet run
+ctrl + s 
+
+gatos de casa
