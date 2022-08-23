@@ -14,11 +14,15 @@ DateTime beti = DateTime.Now; //variavel de data e hora
 // = atribuição atribuindo falando o que é
 // == comparação se são iguais
 // != comparação se são diferentes
-var resultado =3+(cacau-5*4)/7f;
+//var resultado =3+(cacau-5*4)/7f;
+
+Console.WriteLine("por favor digite algo");
+var resultado =Console.ReadLine();
+
+Console.WriteLine("por favor digite outra palavra");
+var resultado2 =Console.ReadLine();
+Console.WriteLine("a soma das palavras que voce digitou foi:");
 
 
 
-
-
-
-Console.WriteLine (resultado);
+Console.WriteLine (resultado+resultado2);

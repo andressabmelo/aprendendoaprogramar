@@ -13,3 +13,18 @@
 /home/andressa/Projetos/Meu primeiro programa/APP/APP/obj/Debug/net6.0/ref/APP.dll
 /home/andressa/Projetos/Meu primeiro programa/APP/APP/obj/Debug/net6.0/APP.pdb
 /home/andressa/Projetos/Meu primeiro programa/APP/APP/obj/Debug/net6.0/APP.genruntimeconfig.cache
+/home/andressa/Projetos/aprendendoaprogramar/APP/bin/Debug/net6.0/APP
+/home/andressa/Projetos/aprendendoaprogramar/APP/bin/Debug/net6.0/APP.deps.json
+/home/andressa/Projetos/aprendendoaprogramar/APP/bin/Debug/net6.0/APP.runtimeconfig.json
+/home/andressa/Projetos/aprendendoaprogramar/APP/bin/Debug/net6.0/APP.dll
+/home/andressa/Projetos/aprendendoaprogramar/APP/bin/Debug/net6.0/ref/APP.dll
+/home/andressa/Projetos/aprendendoaprogramar/APP/bin/Debug/net6.0/APP.pdb
+/home/andressa/Projetos/aprendendoaprogramar/APP/obj/Debug/net6.0/APP.csproj.AssemblyReference.cache
+/home/andressa/Projetos/aprendendoaprogramar/APP/obj/Debug/net6.0/APP.GeneratedMSBuildEditorConfig.editorconfig
+/home/andressa/Projetos/aprendendoaprogramar/APP/obj/Debug/net6.0/APP.AssemblyInfoInputs.cache
+/home/andressa/Projetos/aprendendoaprogramar/APP/obj/Debug/net6.0/APP.AssemblyInfo.cs
+/home/andressa/Projetos/aprendendoaprogramar/APP/obj/Debug/net6.0/APP.csproj.CoreCompileInputs.cache
+/home/andressa/Projetos/aprendendoaprogramar/APP/obj/Debug/net6.0/APP.dll
+/home/andressa/Projetos/aprendendoaprogramar/APP/obj/Debug/net6.0/ref/APP.dll
+/home/andressa/Projetos/aprendendoaprogramar/APP/obj/Debug/net6.0/APP.pdb
+/home/andressa/Projetos/aprendendoaprogramar/APP/obj/Debug/net6.0/APP.genruntimeconfig.cache
