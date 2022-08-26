@@ -16,13 +16,46 @@ DateTime beti = DateTime.Now; //variavel de data e hora
 // != comparação se são diferentes
 //var resultado =3+(cacau-5*4)/7f;
 
-Console.WriteLine("por favor digite algo");
-var resultado =Console.ReadLine();
+/*
+for é a estrutura que faz repetir, que recebe um contador, depois até onde ele vai e o quanto ele vai subir
 
-Console.WriteLine("por favor digite outra palavra");
-var resultado2 =Console.ReadLine();
-Console.WriteLine("a soma das palavras que voce digitou foi:");
+var resultado ="";
+for(int contador=0; contador<5;contador+=1)
+{
+    Console.WriteLine("por favor digite a palavra "+(contador+1));
+    resultado+=Console.ReadLine();
+}
+Console.WriteLine("a soma das suas palavras é:");
+Console.WriteLine (resultado);
+*/
+
+/*
+ele repete até mandar parar
+
+var resultado ="";
+while(!resultado.Contains("cansei"))
+{
+    Console.WriteLine("por favor digite uma palavra");
+    resultado+=Console.ReadLine();
+}
+Console.WriteLine("a soma das suas palavras é:");
+Console.WriteLine (resultado);
+*/
+
+// if é se     else é senão, if se for aquilo ele faz algo senão for ele faz outra coisa
+var resultado=Console.ReadLine();
+if(resultado == "1")
+{
+    Console.WriteLine("passarinho");
+}
+
+else{
+    Console.WriteLine("gatos");
+}
 
 
 
-Console.WriteLine (resultado+resultado2);
+
+
+
+
