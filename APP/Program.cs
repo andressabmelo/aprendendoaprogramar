@@ -43,19 +43,26 @@ Console.WriteLine (resultado);
 */
 
 // if é se     else é senão, if se for aquilo ele faz algo senão for ele faz outra coisa
+
+Console.WriteLine("Seu oponente jogou pedra, digite 1 para escolher tesoura, 2 para escolher papel, 3 para escolher pedra");
 var resultado=Console.ReadLine();
+
 if(resultado == "1")
 {
-    Console.WriteLine("passarinho");
+    Console.WriteLine("Você perdeu");
 }
 
-else{
-    Console.WriteLine("gatos");
+if(resultado == "2")
+{
+    Console.WriteLine("Você venceu");
 }
 
+if(resultado == "3")
+{
+    Console.WriteLine("Empate");
+}
 
-
-
-
-
-
+if(resultado != "1") if(resultado != "2") if(resultado != "3")
+{
+    Console.WriteLine("Opção Inválida");
+}
