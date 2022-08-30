@@ -42,10 +42,18 @@ Console.WriteLine("a soma das suas palavras é:");
 Console.WriteLine (resultado);
 */
 
-// if é se     else é senão, if se for aquilo ele faz algo senão for ele faz outra coisa
+// if é se     else é senão, if se for aquilo ele faz não for ele faz outra coisa
+/*
+
+&& condição de ter 2 verdadeiros
+|| condição de ter um ou outro verdadeiro
 
 Console.WriteLine("Seu oponente jogou pedra, digite 1 para escolher tesoura, 2 para escolher papel, 3 para escolher pedra");
-var resultado=Console.ReadLine();
+var resultado="0";
+while(resultado!="1"&&resultado!="2"&&resultado!="3")
+{
+
+resultado=Console.ReadLine();
 
 if(resultado == "1")
 {
@@ -66,3 +74,5 @@ if(resultado != "1") if(resultado != "2") if(resultado != "3")
 {
     Console.WriteLine("Opção Inválida");
 }
+}
+*/
