@@ -76,3 +76,39 @@ if(resultado != "1") if(resultado != "2") if(resultado != "3")
 }
 }
 */
+var Scott=new Lobisomem();
+Scott.Nome= "Scott";
+Scott.CorDoPelo= "Marrom";
+Scott.TamanhoDaGarra= 5f;
+Scott.Atacar();
+
+// objeto é algo construído com as definições da classe
+var Derek=new Lobisomem();
+Derek.Nome= "Derek";
+Derek.CorDoPelo= "Preto";
+Derek.TamanhoDaGarra= 10f;
+Derek.Atacar();
+
+
+
+
+
+// classe é um conceito um tipo de coisa
+public class Lobisomem
+{
+// atributo são as características de uma classe
+    public string Nome;
+    public string CorDoPelo;
+    public float TamanhoDaGarra;
+    // método é a ação que a classe executa
+    public void Atacar(){
+        Console.WriteLine(Nome +"Se transformou em um lobisomem de cor " +CorDoPelo + " E atacou com suas garras de "+ TamanhoDaGarra + "cm.");
+    }
+}
+
+
+
+
+
+
+
