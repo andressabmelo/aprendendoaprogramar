@@ -76,6 +76,26 @@ if(resultado != "1") if(resultado != "2") if(resultado != "3")
 }
 }
 */
+
+var Saudadedecasa= new Música();
+Saudadedecasa.NomeDaMúsica= "Saudade de casa.";
+Saudadedecasa.Letra= " Volta logo Jesus, vem, me leva pra casa, o céu é o meu lar, o céu é minha morada.";
+Saudadedecasa.NomeDoArtista= "Jefferson e Suellen.";
+Saudadedecasa.DataDeLançamento= 2020f;
+Saudadedecasa.Executar();
+
+public class Música
+{
+    public string NomeDaMúsica;
+    public string Letra;
+    public string NomeDoArtista;
+    public float DataDeLançamento;
+    public void Executar(){
+        Console.WriteLine("Tocando: " +NomeDaMúsica +Letra +" Essa música é de autoria de: " +NomeDoArtista +" Publicada no ano: " +DataDeLançamento);
+    }
+}
+
+/*
 var Scott=new Lobisomem();
 Scott.Nome= "Scott";
 Scott.CorDoPelo= "Marrom";
@@ -102,11 +122,10 @@ public class Lobisomem
     public float TamanhoDaGarra;
     // método é a ação que a classe executa
     public void Atacar(){
-        Console.WriteLine(Nome +"Se transformou em um lobisomem de cor " +CorDoPelo + " E atacou com suas garras de "+ TamanhoDaGarra + "cm.");
+        Console.WriteLine(Nome +" se transformou em um lobisomem de cor " +CorDoPelo + " e atacou com suas garras de "+ TamanhoDaGarra + "cm.");
     }
 }
-
-
+*/
 
 
 
