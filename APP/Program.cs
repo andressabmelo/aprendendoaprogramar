@@ -91,6 +91,13 @@ Podemoraraqui.NomeDoArtista= "Theo Rubia.";
 Podemoraraqui.DataDeLançamento= 2019f;
 Podemoraraqui.Executar();
 
+var Vitorioso= new Música();
+Vitorioso.NomeDaMúsica= "Vitorioso és.";
+Vitorioso.Letra= " Vitorioso És, na tempestade estás, teu nome infalível é, os reinos vêm e vão, teu trono acima está, teu nome imutável é.";
+Vitorioso.NomeDoArtista= "Gabriel Guedes.";
+Vitorioso.DataDeLançamento= 2019f;
+Vitorioso.Executar();
+
 public class Música
 {
     public string NomeDaMúsica;
