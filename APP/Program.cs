@@ -84,6 +84,13 @@ Saudadedecasa.NomeDoArtista= "Jefferson e Suellen.";
 Saudadedecasa.DataDeLançamento= 2020f;
 Saudadedecasa.Executar();
 
+var Podemoraraqui= new Música();
+Podemoraraqui.NomeDaMúsica= "Pode morar aqui.";
+Podemoraraqui.Letra= " Tem fogo nos olhos, eu não imaginava, que era lindo assim, que era lindo assim.";
+Podemoraraqui.NomeDoArtista= "Theo Rubia.";
+Podemoraraqui.DataDeLançamento= 2019f;
+Podemoraraqui.Executar();
+
 public class Música
 {
     public string NomeDaMúsica;
