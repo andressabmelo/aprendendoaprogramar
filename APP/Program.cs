@@ -91,12 +91,12 @@ Podemoraraqui.NomeDoArtista= "Theo Rubia.";
 Podemoraraqui.DataDeLançamento= 2019f;
 Podemoraraqui.Executar();
 
-var Vitorioso= new Música();
-Vitorioso.NomeDaMúsica= "Vitorioso és.";
-Vitorioso.Letra= " Vitorioso És, na tempestade estás, teu nome infalível é, os reinos vêm e vão, teu trono acima está, teu nome imutável é.";
-Vitorioso.NomeDoArtista= "Gabriel Guedes.";
-Vitorioso.DataDeLançamento= 2019f;
-Vitorioso.Executar();
+var Silêncio= new Música();
+Silêncio.NomeDaMúsica= "No silêncio.";
+Silêncio.Letra= " No silêncio, está te ensinando, no silêncio, ele está trabalhando, no silêncio, ele vai te moldar, mas é no silêncio, que você vai adorar.";
+Silêncio.NomeDoArtista= "Jefferson e Suellen.";
+Silêncio.DataDeLançamento= 2021f;
+Silêncio.Executar();
 
 public class Música
 {
