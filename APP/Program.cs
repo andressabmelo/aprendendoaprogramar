@@ -76,7 +76,7 @@ if(resultado != "1") if(resultado != "2") if(resultado != "3")
 }
 }
 */
-
+/*
 var Saudadedecasa= new Música();
 Saudadedecasa.NomeDaMúsica= "Saudade de casa.";
 Saudadedecasa.Letra= " Volta logo Jesus, vem, me leva pra casa, o céu é o meu lar, o céu é minha morada.";
@@ -108,7 +108,7 @@ public class Música
         Console.WriteLine("Tocando: " +NomeDaMúsica +Letra +" Essa música é de autoria de: " +NomeDoArtista +" Publicada no ano: " +DataDeLançamento);
     }
 }
-
+*/
 /*
 var Scott=new Lobisomem();
 Scott.Nome= "Scott";
@@ -140,8 +140,86 @@ public class Lobisomem
     }
 }
 */
+// herança é toda classe que puxa coisas da classe pai
+// polimorfismo toda classe pai pode ser criada como a classe filha, mas, a classe filha nunca pode ser criada como a classe pai
+/*
+var Calu= new Calopsita();
+var Cacau= new Galinha();
+Ave Rei= new Calopsita();
+Rei = new Galinha();
+Calu
+public class Ave:Animal{
+    public string FormatoDoBico;
+    public string CorDaPena;
+}
 
+public class Calopsita:Ave
+{    
+    public void Assobiar(){
+        Console.WriteLine("PIUUU");
 
+    }
+}
 
+public class Galinha:Ave{
+    public void Ciscar(){
+        Console.WriteLine("Cisca");
+    }
+}
 
+public class Animal{
+    public string Nome;
+}
+*/
+// Criar uma classe objeto com atributo nome e peso 
+// criar uma classe material escolar que herda de objeto e tem atributo cor
+// criar 3 classes quaisquer que representam materiais escolares cada classe teve ter 1 método
 
+var lapis= new LapisDeCor();
+lapis.Escrever();
+
+public class Objeto{
+    public string Nome;
+    public float Peso;
+}
+public class MaterialEscolar:Objeto{
+    public void Teste(){
+        
+
+    }
+
+    private string NomeDoAluno;
+    protected string Marca;
+    public string Cor;
+}
+public class Lapis:MaterialEscolar{
+    public virtual void Escrever(){
+    
+        Console.WriteLine("Volta as aulas");
+    }
+}
+public class Borracha:MaterialEscolar{
+    public void Apagar(){
+        Console.WriteLine("Apagar");
+    }
+}
+public class Canetinha:MaterialEscolar{
+    public void Contornar(){
+        Console.WriteLine("Contornar");
+    }
+}
+
+public class LapisDeCor:Lapis{
+    public override void Escrever()
+    {
+        //base.Escrever();
+        Console.WriteLine("Escreve colorido");
+    }
+
+}
+
+// Público atributo/método que pode ser usado em qualquer classe ou em qualquer lugar
+// Protegido só pode ser usado na classe pai e nas classes filhas
+// Privado só pode ser usado na classe que foi criado
+// Virtual é o método que pode ser sobre escrito
+// override é o ato de sobre escrever um método
